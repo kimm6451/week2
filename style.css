@@ -1,0 +1,411 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+	display: block;
+}
+
+body {
+	line-height: 1;
+}
+
+ol,
+ul {
+	list-style: none;
+}
+
+blockquote,
+q {
+	quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+	content: '';
+	content: none;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+	/* outline: solid 1px; */
+}
+
+body {
+	font-family: Bruno Ace SC, serif;
+}
+
+a {
+	text-decoration: none;
+	display: inline-block;
+	color: inherit;
+}
+
+img {
+	height: auto;
+	max-width: 100%;
+	vertical-align: middle;
+}
+
+.container {
+	width: 1296px;
+	margin: 0 auto;
+}
+
+/* layout 每個頁面出現的共通版型*/
+.header {
+	background: #000;
+	color: #D1D1D1;
+	padding: 40px 0;
+}
+
+.nav {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.footer {
+	background: #000;
+	height: 104px;
+	color: white;
+}
+
+/* component 元件*/
+.btn {
+	padding: 12px 24px;
+	border-radius: 32px;
+}
+
+.btn-light {
+	background: white;
+	color: #000;
+}
+
+.btn-dark {
+	background: #000;
+	color: white;
+
+}
+
+/* page 只有這個頁面會出現的元素 */
+.banner {
+	background: #000;
+	color: #FFFFFF;
+}
+
+.banner-title-strong {
+	display: block;
+	text-align: right;
+}
+
+.intro {
+	background-image: url(images/background-img.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: white;
+	padding: 160px 0;
+}
+
+.intro-desc {
+	width: 526px;
+}
+
+.about {
+	padding: 160px 0;
+}
+
+.about-list {
+	width: 636px;
+	flex-wrap: wrap;
+	/* justify-content: space-between; */
+	gap: 24px;
+}
+
+.about-list li {
+	width: calc(50% - 12px);
+	box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.08);
+
+}
+
+.about-desc {
+	width: 526px;
+}
+
+.contact {
+	background: linear-gradient(rgba(5, 0, 20, 1), rgba(1, 2, 30, 0.89));
+	;
+	padding: 96px 0;
+}
+
+.social-link {
+	border-radius: 40px;
+}
+
+.social-link:hover {
+	box-shadow: 0px 0px 16px 3px rgba(144, 148, 255, 0.9);
+	transition: 1s;
+}
+
+.project {
+	padding: 160px 0;
+}
+
+.project-title {
+	width: 746px;
+	margin-left: auto;
+}
+
+
+
+
+.h1 {
+	font-size: 128px;
+	line-height: 1.5;
+}
+
+.h2 {
+	font-size: 64px;
+	line-height: 1.5;
+}
+
+.white {
+	color: white;
+}
+
+
+.fs-1 {
+	font-size: 32px;
+	line-height: 1.5;
+}
+
+.fs-2 {
+	font-size: 24px;
+	line-height: 1.5;
+}
+
+.fs-3 {
+	font-size: 20px;
+	line-height: 1.5;
+}
+
+.fs-4 {
+	font-size: 16px;
+	line-height: 1.5;
+}
+
+.text-primary {
+	color: #00FFA3;
+}
+
+.d-flex {
+	display: flex;
+}
+
+.d-block {
+	display: inline;
+}
+
+.flex-column {
+	flex-direction: column;
+}
+
+.align-items-start {
+	align-items: start;
+}
+
+.align-items-center {
+	align-items: center;
+}
+
+.align-items-flex-start {
+	align-items: flex-start;
+}
+
+.justify-content-between {
+	justify-content: space-between;
+}
+
+.tac {
+	text-align: center;
+}
+
+.w100 {
+	width: 100px;
+}
+
+.m-04 {
+	margin: 0 16px;
+}
+
+.mb-1 {
+	margin-bottom: 4px;
+}
+
+.mb-2 {
+	margin-bottom: 8px;
+}
+
+.mb-4 {
+	margin-bottom: 16px;
+}
+
+.mb-9 {
+	margin-bottom: 36px;
+}
+
+.mt-4 {
+	margin-top: 16px;
+}
+
+.mr-4 {
+	margin-right: 16px;
+}
+
+.mr-5 {
+	margin-right: 20px;
+}
+
+.mr-6 {
+	margin-right: 24px;
+}
+
+.mb-6 {
+	margin-bottom: 24px;
+}
+
+.mb-7 {
+	margin-bottom: 28px;
+}
+
+.pl-6 {
+	padding-left: 24px;
+}
+
+.pr-6 {
+	padding-right: 24px;
+}
+
+.pb-6 {
+	padding-bottom: 24px;
+}
+
+.ptb-10 {
+	padding: 40px 0;
+}
+
+.g24 {
+	gap: 24px;
+}
