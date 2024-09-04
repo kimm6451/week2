@@ -1,0 +1,107 @@
+.h1 {
+    font-size: 128px;
+}
+
+.h2 {
+    font-size: 64px;
+}
+
+.fs-1 {
+    font-size: 32px;
+}
+
+.fs-2 {
+    font-size: 24px;
+}
+
+.fs-3 {
+    font-size: 20px;
+}
+
+.fs-4 {
+    font-size: 16px;
+}
+
+.white {
+    color: white;
+}
+
+.text-primary {
+    color: #00FFA3;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.d-block {
+    display: block;
+}
+
+.flex-column {
+    flex-direction: column;
+}
+
+.align-items-start {
+    align-items: start;
+}
+
+.align-items-center {
+    align-items: center;
+}
+
+.align-items-flex-start {
+    align-items: flex-start;
+}
+
+.justify-content-between {
+    justify-content: space-between;
+}
+
+.w100 {
+    width: 100px;
+}
+
+.mb-7 {
+    margin-bottom: 28px;
+}
+
+.mr-4 {
+    margin-right: 16px;
+}
+
+.mr-5 {
+    margin-right: 20px;
+}
+
+.mr-6 {
+    margin-right: 24px;
+}
+
+.pl-6 {
+    padding-left: 24px;
+}
+
+.pr-4 {
+    padding-right: 16px;
+}
+
+.pr-6 {
+    padding-right: 24px;
+}
+
+.pb-1 {
+    padding-bottom: 4px;
+}
+
+.pb-4 {
+    padding-bottom: 16px;
+}
+
+.pb-8 {
+    padding-bottom: 32px;
+}
+
+.pb-9 {
+    padding-bottom: 36px;
+}
